@@ -114,61 +114,65 @@
                 <section class="news">
                     <div class="container news__container">
                         <h2 class="title">Новости и акции</h2>
-                        <div class="container preview__container">
-                            <div class="preview__news">
-                                <img src="" alt="" class="preview__img">
-                                <p class="preview__date">Декабрь 2019</p>
-                                <h3 class="preview__title">Снимем Ваш клип на 50% дешевле</h3>
-                                <p class="preview__text">В честь Новогодних праздников мы раздаем огромные скидки,
-                                    успейте забронировать даты.</p>
-                            </div>
-                            <div class="preview__news">
-                                <img src="" alt="" class="preview__img">
-                                <p class="preview__date">Декабрь 2019</p>
-                                <h3 class="preview__title">Акция для молодоженов 30%</h3>
-                                <p class="preview__text">Успейте забронировать даты. пока еще есть места на декабрь.
-                                    Удачи и всех благ!</p>
-                            </div>
-                            <div class="paginator">
-                                <p class="paginator__text">страниц 1 из 7</p>
-                                <ul>
-                                    <li class="paginator__page">
-                                        <div class="paginator__pagenumber">
-                                            1
-                                        </div>
-                                    </li>
-                                    <li class="paginator__page">
-                                        <div class="paginator__pagenumber">
-                                            2
-                                        </div>
-                                    </li>
-                                    <li class="paginator__page">
-                                        <div class="paginator__pagenumber">
-                                            3
-                                        </div>
-                                    </li>
-                                    <li class="paginator__page">
-                                        <div class="paginator__pagenumber">
-                                            4
-                                        </div>
-                                    </li>
-                                    <li class="paginator__page">
-                                        <div class="paginator__pagenumber">
-                                            5
-                                        </div>
-                                    </li>
-                                    <li class="paginator__page">
-                                        <div class="paginator__pagenumber">
-                                            6
-                                        </div>
-                                    </li>
-                                    <li class="paginator__page">
-                                        <div class="paginator__pagenumber">
-                                            7
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                        <ul class="news__list">
+                            <li class="news__preview">
+                                <img src="" alt="" class="news__img">
+                                <div class="news__preview">
+                                    <p class="news__date">Декабрь 2019</p>
+                                    <h3 class="news__title">Снимем Ваш клип на 50% дешевле</h3>
+                                    <p class="news__text">В честь Новогодних праздников мы раздаем огромные скидки,
+                                        успейте забронировать даты.</p>
+                                </div>
+                            </li>
+                            <li class="news__preview">
+                                <img src="" alt="" class="news__img">
+                                <div class="news__preview">
+                                    <p class="news__date">Декабрь 2019</p>
+                                    <h3 class="news__title">Акция для молодоженов 30%</h3>
+                                    <p class="news__text">Успейте забронировать даты. пока еще есть места на декабрь.
+                                        Удачи и всех благ!</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="paginator">
+                            <p class="paginator__text">страниц 1 из 7</p>
+                            <ul class="pagenator__list">
+                                <li class="paginator__page">
+                                    <div class="paginator__pagenumber">
+                                        1
+                                    </div>
+                                </li>
+                                <li class="paginator__page">
+                                    <div class="paginator__pagenumber">
+                                        2
+                                    </div>
+                                </li>
+                                <li class="paginator__page">
+                                    <div class="paginator__pagenumber">
+                                        3
+                                    </div>
+                                </li>
+                                <li class="paginator__page">
+                                    <div class="paginator__pagenumber">
+                                        4
+                                    </div>
+                                </li>
+                                <li class="paginator__page">
+                                    <div class="paginator__pagenumber">
+                                        5
+                                    </div>
+                                </li>
+                                <li class="paginator__page">
+                                    <div class="paginator__pagenumber">
+                                        6
+                                    </div>
+                                </li>
+                                <li class="paginator__page">
+                                    <div class="paginator__pagenumber">
+                                        7
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </section>
@@ -177,12 +181,13 @@
                         <img src="" alt="" class="about__img">
                         <div class="about__content">
                             <h2 class="title title--dark">О нас</h2>
-                            <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                            <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                сгенерировать несколько
                                 абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
                                 отточить навык публичных выступлений в домашних условиях.</p>
+                            <a href="#" class="button__button--light">Подробнее</a>
                         </div>
                     </div>
-                    <a href="#" class="button__button--light">Подробнее</a>
                 </section>
             </main>
         </div>
@@ -207,16 +212,16 @@
                 <div class="social-media">
                     <ul class="social-media__list">
                         <li class="social-media__item">
-                            <a href="#"><img src="" alt="Telegram" title="Мы в Telegram"></a>
+                            <a href="#"><img src="" alt="Telegram" title="Мы в Telegram" class="social-media__link"></a>
                         </li>
                         <li class="social-media__item">
-                            <a href="#"><img src="" alt="VK" title="Мы в VK"></a>
+                            <a href="#"><img src="" alt="VK" title="Мы в VK" class="social-media__link"></a>
                         </li>
                         <li class="social-media__item">
-                            <a href="#"><img src="" alt="FaceBook" title="Мы в FaceBook"></a>
+                            <a href="#"><img src="" alt="FaceBook" title="Мы в FaceBook" class="social-media__link"></a>
                         </li>
                         <li class="social-media__item">
-                            <a href="#"><img src="" alt="Instagram" title="Мы в Instagram"></a>
+                            <a href="#"><img src="" alt="Instagram" title="Мы в Instagram" class="social-media__link"></a>
                         </li>
                     </ul>
                 </div>
