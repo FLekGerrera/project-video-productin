@@ -1,0 +1,16 @@
+.offers__container {
+    margin-top: 233px;
+    margin-left: 390px;
+    margin-right: 390px;
+    width: 1140px;
+}
+
+.offers__item {
+    display: inline-block;
+    margin-right: 27px;
+}
+
+.offers__content {
+    width: 362px;
+    height: 476px;
+}
