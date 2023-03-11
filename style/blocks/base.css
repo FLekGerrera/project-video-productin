@@ -18,8 +18,22 @@ body {
 }
 
 button {
-	border: 0;
 	cursor: pointer;
+	font-style: normal;
+	width: 195px;
+	height: 55px;
+	left: 863px;
+	top: 507px;
+	background: #FF3D00;
+	border-radius: 35px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 19px;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FF5500;
+	
 }
 
 * {
@@ -45,10 +59,6 @@ h6 {
 p {
 	margin: 0;
 	padding: 0;
-}
-
-button {
-	cursor: pointer;
 }
 
 a {
@@ -78,62 +88,5 @@ img {
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;
-	max-width: 1141px;
+	max-width: 1142px;
 }
-
-.logo, .menu, .menu__item, .contacts, .social-media, .social-media__item{
-	display: inline-block;
-
-}
-.menu {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 19px;
-}
-
-.logo, .contacts {
-	margin-top: 26px;
-}
- .logo {
-	float: left;
- }
-
- .contacts {
-	float: right;
- }
- .contacts__phone {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 26px;
-	line-height: 35px;
-}
-.contacts__info {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 20px;
-	text-decoration: underline;
-	text-align: end;
-}
-.contacts__call {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 11px;
-	line-height: 20px;
-	text-align: end;
-}
-
- .menu {
-	margin-top: 42px;
-	margin-left: 241px;
- }
-
-.menu__item {
-	margin-right: 54px;
-}
-
-.menu__item:last-child {
-	margin-right: 0;
-}
-

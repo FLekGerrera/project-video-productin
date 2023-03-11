@@ -1,3 +1,61 @@
 .header__container {
     height: 77px;
 }
+
+.logo, .menu, .menu__item, .contacts, .social-media, .social-media__item{
+	display: inline-block;
+
+}
+.menu {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.logo, .contacts {
+	margin-top: 26px;
+}
+ .logo {
+	float: left;
+ }
+
+ .contacts {
+	float: right;
+ }
+ .contacts__phone {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 35px;
+}
+.contacts__info {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	text-decoration: underline;
+	text-align: end;
+	color: #FF3D00;
+
+}
+.contacts__call {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 20px;
+	text-align: end;
+}
+
+ .menu {
+	margin-top: 42px;
+	margin-left: 241px;
+ }
+
+.menu__item {
+	margin-right: 54px;
+}
+
+.menu__item:last-child {
+	margin-right: 0;
+}
